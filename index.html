@@ -9,9 +9,18 @@
         <script src="app.js" defer></script>
       </head>
       <body>
-        <h1>Avengers Character Search</h1>
+        <header>
+            <h1>Avengers Character Search</h1>
+        </header>
         <div>
-            <button id="search">Search</button>
+            <p>Search by Full Name or Alias</p>
+            <form>
+                <input type="text" id="searchname" placeholder="e.g. Captain America or Steve Rogers">
+                <button id="search">Search</button>
+            </form>    
         </div>
+        <h1>Result</h1>
+        <hr>
+        <div id="result"></div>
       </body>
 </html>
